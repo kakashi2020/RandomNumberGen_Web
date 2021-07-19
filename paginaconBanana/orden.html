@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="delfin.png" sizes="16x16">
+    <title>La página de Banana</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <h1 class="titulo">
+        Esta es la página de Maicho y Banana
+    </h1>
+    <p>
+        ¡Selecciona un rango númerico para hacer una elección al azar!
+    </p>
+    <div class="the_number"> Rango de 0 a : 
+        <input id="the_only_input" type="number" min="0">
+    </div>
+    <div class="boton_eje">
+        <button id="only_document">
+            ¡Prueba tu suerte!
+        </button>
+    </div>
+    <div class="boton_eje">
+        <button onClick="window.location.reload();">Reset    please    :)</button>
+    </div>
+    <div id="chosen" class="doesnotmatter"></div>
+    <script src="programa.js"></script>
+</body>
+</html>
